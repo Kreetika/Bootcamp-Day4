@@ -1,0 +1,11 @@
+{% extends 'friend_app/base.html' %}
+{% block title %}
+    My friends
+{% endblock %}
+    
+{% block main_content %}
+    {% for name in names %}
+        <br> {{name}}
+    {%endfor%}
+{% endblock %}
+    
